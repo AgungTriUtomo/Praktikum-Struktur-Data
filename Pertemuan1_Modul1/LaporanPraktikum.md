@@ -6,49 +6,31 @@ isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku
 contoh :
 Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
 
-### A. ...<br/>
-...
-#### 1. ...
-#### 2. ...
-#### 3. ...
-
-### B. ...<br/>
-...
-#### 1. ...
-#### 2. ...
-#### 3. ...
-
-## Guided 
-
-### 1. ...
-
-```C++
-source code guided 1
-```
-penjelasan singkat guided 1
-
-### 2. ...
-
-```C++
-source code guided 2
-```
-penjelasan singkat guided 2
-
-### 3. ...
-
-```C++
-source code guided 3
-```
-penjelasan singkat guided 3
-
 ## Unguided 
 
 ### 1. (isi dengan soal unguided 1)
 
 ```C++
-source code unguided 1
+#include <iostream>
+using namespace std;
+
+int main() {
+ float bil1, bil2;
+
+ cout << "bilangan pertama : ";
+ cin >> bil1;
+ cout << "bilangan kedua : ";
+ cin >> bil2;
+
+ cout << "Penjumlahan (" << bil1 << " + " << bil2 << ") = " << bil1 + bil2 << endl;
+ cout << "Pengurangan (" << bil1 << " - " << bil2 << ") = " << bil1 - bil2 << endl;
+ cout << "Perkalian   (" << bil1 << " * " << bil2 << ") = " << bil1 * bil2 << endl;
+ cout << "Pembagian (" << bil1 << " / " << bil2 << ") = " << bil1 / bil2 << endl;
+ return 0;
+}
 ```
 ### Output Unguided 1 :
+Bilangan pertama : 
 
 ##### Output 1
 ![Screenshot Output Unguided 1_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
