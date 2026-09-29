@@ -39,10 +39,17 @@ pembagian (10/4)= 2.5
 ##### Output 1
 ![Output Unguided 1-1](./Output/Output-Unguided1-1.png)
 
-##### Output 2
-![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+### Output Unguided 2 :
+Bilangan pertama : 5 Bilangan kedua : 10
+penjumlahan (5+10)= 15
+pengurangan (5-10)= -5
+perkalian (5*10)= 50
+pembagian (5/10)= 0.5
 
-penjelasan unguided 1 
+##### Output 2
+![Output Unguided 1-2](./Output/Output-Unguided1-2.png)
+
+Program ini bertujuan untuk membuat kalkulator aritmatika dasar yang menerima input dua bilangan bertipe float. Nilai yang dimasukkan pengguna disimpan ke dalam variabel bil1 dan bil2, kemudian program langsung menghitung serta menampilkan hasil penjumlahan, pengurangan, perkalian, dan pembagian.
 
 ### 2. (isi dengan soal unguided 2)
 
