@@ -107,15 +107,42 @@ Program ini memproses input angka dan mencetak sebutan atau ejaannya secara lang
 ### 3. (isi dengan soal unguided 3)
 
 ```C++
-source code unguided 3
+#include <iostream>
+using namespace std;
+
+int main() {
+    int n;
+
+    cout << "Input: ";
+    cin >> n;
+
+    for (int i = n; i >= 0; i--) {
+
+        for (int j = i; j >= 1; j--) {
+            cout << j << " ";
+        }
+
+        cout << "*";
+
+        for (int j = 1; j <= i; j++) {
+            cout << " " << j;
+        }
+
+        cout << endl;
+    }
+
+    return 0;
+}
 ```
-### Output Unguided 3 :
+### Output Unguided 1 :
+input : 3
+output : 321*123
+21*12
+1*1
+*
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 3_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided3-1.png)
+![Output Unguided 3-1](./Output/Output-Unguided3-1.png)
 
 ##### Output 2
 ![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
