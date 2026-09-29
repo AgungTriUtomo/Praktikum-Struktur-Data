@@ -2,22 +2,16 @@
 using namespace std;
 
 int main() {
-    float a, b;
+ float bil1, bil2;
 
-    cout << "Masukkan bilangan pertama: ";
-    cin >> a;
+ cout << "bilangan pertama : ";
+ cin >> bil1;
+ cout << "bilangan kedua : ";
+ cin >> bil2;
 
-    cout << "Masukkan bilangan kedua: ";
-    cin >> b;
-
-    cout << "\nHasil Penjumlahan = " << a + b << endl;
-    cout << "Hasil Pengurangan = " << a - b << endl;
-    cout << "Hasil Perkalian   = " << a * b << endl;
-
-    if (b != 0)
-        cout << "Hasil Pembagian   = " << a / b << endl;
-    else
-        cout << "Pembagian tidak bisa karena pembagi = 0" << endl;
-
-    return 0;
+ cout << "Penjumlahan (" << bil1 << " + " << bil2 << ") = " << bil1 + bil2 << endl;
+ cout << "Pengurangan (" << bil1 << " - " << bil2 << ") = " << bil1 - bil2 << endl;
+ cout << "Perkalian   (" << bil1 << " * " << bil2 << ") = " << bil1 * bil2 << endl;
+ cout << "Pembagian (" << bil1 << " / " << bil2 << ") = " << bil1 / bil2 << endl;
+ return 0;
 }
