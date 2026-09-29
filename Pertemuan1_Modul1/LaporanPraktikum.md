@@ -30,13 +30,14 @@ int main() {
 }
 ```
 ### Output Unguided 1 :
-Bilangan pertama : 
+Bilangan pertama : 10 Bilangan kedua : 4
+penjumlahan (10+4)= 14
+Pengurangan (10-4)= 6
+perkalian (10*4)= 40
+pembagian (10/4)= 2.5
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 1_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided1-1.png)
+![Output Unguided 1-1](./Output/Output-Unguided1-1.png)
 
 ##### Output 2
 ![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
