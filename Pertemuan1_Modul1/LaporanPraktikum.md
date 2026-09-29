@@ -8,7 +8,7 @@ Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk str
 
 ## Unguided 
 
-### 1. (isi dengan soal unguided 1)
+### 1. Buatlah program yang menerima input-an dua buah bilangan bertipe float, kemudian memberikan output-an hasil penjumlahan, pengurangan, perkalian, dan pembagian dari dua bilangan tersebut.
 
 ```C++
 #include <iostream>
@@ -51,23 +51,58 @@ pembagian (5/10)= 0.5
 
 Program ini bertujuan untuk membuat kalkulator aritmatika dasar yang menerima input dua bilangan bertipe float. Nilai yang dimasukkan pengguna disimpan ke dalam variabel bil1 dan bil2, kemudian program langsung menghitung serta menampilkan hasil penjumlahan, pengurangan, perkalian, dan pembagian.
 
-### 2. (isi dengan soal unguided 2)
+### 2. Buatlah sebuah program yang menerima masukan angka dan mengeluarkan output nilai angka tersebut dalam bentuk tulisan. Angka yang akan di-input-kan user adalah bilangan bulat positif mulai dari 0 s.d 100.
 
 ```C++
-source code unguided 2
+#include <iostream>
+using namespace std;
+
+int main() {
+    int angka;
+
+    string satuan[] = {
+        "nol", "satu", "dua", "tiga", "empat",
+        "lima", "enam", "tujuh", "delapan", "sembilan",
+        "sepuluh", "sebelas"
+    };
+
+    cout << "Masukkan angka (0-100): ";
+    cin >> angka;
+
+    if (angka >= 0 && angka <= 11) {
+        cout << satuan[angka];
+    }
+    else if (angka < 20) {
+        cout << satuan[angka - 10] << " belas";
+    }
+    else if (angka < 100) {
+        int puluh = angka / 10;
+        int sisa = angka % 10;
+
+        cout << satuan[puluh] << " puluh";
+
+        if (sisa != 0)
+            cout << " " << satuan[sisa];
+    }
+    else if (angka == 100) {
+        cout << "seratus";
+    }
+    else {
+        cout << "Angka harus antara 0 - 100";
+    }
+
 ```
-### Output Unguided 2 :
-
+### Output Unguided 1 :
+79 : tujuh puluh sembilan
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Output Unguided 2-1](./Output/Output-Unguided2-1.png)
 
-contoh :
-![Screenshot Output Unguided 2_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided2-1.png)
-
+### Output Unguided 2 :
+99 : sembilan puluh sembilan
 ##### Output 2
-![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Output Unguided 2-2](./Output/Output-Unguided2-2.png)
 
-penjelasan unguided 2
+Program ini memproses input angka dan mencetak sebutan atau ejaannya secara langsung. Array satuan menyimpan kata dasar untuk angka 0 sampai 11. Kondisi if-else digunakan untuk menentukan apakah angka tersebut masuk kelompok satuan/belasan (di bawah 20), puluhan (di bawah 100), atau angka 100.
 
 ### 3. (isi dengan soal unguided 3)
 
