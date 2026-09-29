@@ -29,24 +29,24 @@ int main() {
  return 0;
 }
 ```
-### Output Unguided 1 :
+### Output Unguided 1.1 :
 Bilangan pertama : 10 Bilangan kedua : 4
 penjumlahan (10+4)= 14
 Pengurangan (10-4)= 6
 perkalian (10*4)= 40
 pembagian (10/4)= 2.5
 
-##### Output 1
+##### Output 1.1
 ![Output Unguided 1-1](./Output/Output-Unguided1-1.png)
 
-### Output Unguided 2 :
+### Output Unguided 1.2 :
 Bilangan pertama : 5 Bilangan kedua : 10
 penjumlahan (5+10)= 15
 pengurangan (5-10)= -5
 perkalian (5*10)= 50
 pembagian (5/10)= 0.5
 
-##### Output 2
+##### Output 1.2
 ![Output Unguided 1-2](./Output/Output-Unguided1-2.png)
 
 Program ini bertujuan untuk membuat kalkulator aritmatika dasar yang menerima input dua bilangan bertipe float. Nilai yang dimasukkan pengguna disimpan ke dalam variabel bil1 dan bil2, kemudian program langsung menghitung serta menampilkan hasil penjumlahan, pengurangan, perkalian, dan pembagian.
@@ -92,19 +92,21 @@ int main() {
     }
 
 ```
-### Output Unguided 1 :
+### Output Unguided 2.1 :
 79 : tujuh puluh sembilan
-##### Output 1
+##### Output 2.1
 ![Output Unguided 2-1](./Output/Output-Unguided2-1.png)
 
-### Output Unguided 2 :
+### Output Unguided 2.2 :
 99 : sembilan puluh sembilan
-##### Output 2
+##### Output 2.2
 ![Output Unguided 2-2](./Output/Output-Unguided2-2.png)
 
 Program ini memproses input angka dan mencetak sebutan atau ejaannya secara langsung. Array satuan menyimpan kata dasar untuk angka 0 sampai 11. Kondisi if-else digunakan untuk menentukan apakah angka tersebut masuk kelompok satuan/belasan (di bawah 20), puluhan (di bawah 100), atau angka 100.
 
-### 3. (isi dengan soal unguided 3)
+### 3. Buatlah program yang dapat memberikan input dan output sbb
+** Input: 3
+Output: 3 2 1 * 1 2 3 2 1 * 1 2 1 * 1 ***
 
 ```C++
 #include <iostream>
@@ -134,23 +136,33 @@ int main() {
     return 0;
 }
 ```
-### Output Unguided 1 :
+### Output Unguided 3.1 :
 input : 3
-output : 321*123
-21*12
-1*1
-*
+output : 321*123 21*12 1*1 *
 
-##### Output 1
+##### Output 3.1
 ![Output Unguided 3-1](./Output/Output-Unguided3-1.png)
 
-##### Output 2
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+### Output Unguided 3.2 :
+input : 10
+output : 10 9 8 7 6 5 4 3 2 1 * 1 2 3 4 5 6 7 8 9 10
+9 8 7 6 5 4 3 2 1 * 1 2 3 4 5 6 7 8 9
+8 7 6 5 4 3 2 1 * 1 2 3 4 5 6 7 8
+7 6 5 4 3 2 1 * 1 2 3 4 5 6 7
+6 5 4 3 2 1 * 1 2 3 4 5 6
+5 4 3 2 1 * 1 2 3 4 5
+4 3 2 1 * 1 2 3 4
+3 2 1 * 1 2 3
+2 1 * 1 2
+1 * 1
+*
+##### Output 3.2
+![Output Unguided 3-2](./Output/Output-Unguided3-2.png)
 
-penjelasan unguided 3
+Program ini mencetak pola angka bertingkat berdasarkan nilai n yang dimasukkan. Menggunakan perulangan for, program mencetak spasi untuk menggeser posisi, diikuti deret angka menurun, tanda bintang di bagian tengah, dan deret angka menaik. Pada bagian paling akhir, program mencetak satu tanda bintang tunggal di posisi tengah sebagai penutup pola.
 
 ## Kesimpulan
-...
+Praktikum ini memberikan saya pengalaman dalam memahami dan menerapkan dasar-dasar pemrograman menggunakan bahasa C++. Melalui tugas unguided pada Modul 1, saya belajar bagaimana menggunakan variabel dan beberapa tipe data seperti int, float, dan string sesuai dengan kebutuhan program. Selain itu, saya juga memahami penggunaan operator matematika untuk melakukan berbagai perhitungan. Dalam pengerjaan tugas, saya menerapkan percabangan if-else untuk menentukan kondisi tertentu serta menggunakan perulangan bersarang (nested loop) untuk menghasilkan proses yang dilakukan secara berulang. Dari praktikum ini, saya menjadi lebih memahami bagaimana konsep-konsep dasar tersebut dapat digunakan secara bersama-sama untuk membuat dan menyelesaikan sebuah program C++.
 
 ## Referensi
 [1] Triase. (2020). Diktat Edisi Revisi : STRUKTUR DATA. Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN. 
