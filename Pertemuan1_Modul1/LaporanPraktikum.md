@@ -167,4 +167,5 @@ Praktikum ini memberikan saya pengalaman dalam memahami dan menerapkan dasar-das
 ## Referensi
 [1] Triase. (2020). Diktat Edisi Revisi : STRUKTUR DATA. Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN. 
 <br>[2] Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
-<br>...
+<br> [3] Painem, Soetanto, H., Kristanto, D., Solichin, A., & Rusdah. (2023). Peningkatan kompetensi algoritma dan pemrograman C/C++ bagi siswa dan siswi SMK YADIKA 4. KACANEGARA Jurnal Pengabdian pada Masyarakat, 6(4). https://ejournals.itda.ac.id/index.php/KACANEGARA/article/view/1689
+
