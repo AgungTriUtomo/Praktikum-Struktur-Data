@@ -2,9 +2,7 @@
 <p align="center">Muhammad Dhimas Hafizh Fathurrahman - 2311102151</p>
 
 ## Dasar Teori
-isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
-contoh :
-Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
+C++ merupakan bahasa pemrograman yang memiliki berbagai konsep dasar untuk membangun sebuah program, seperti variabel, tipe data, operator, percabangan, dan perulangan. Konsep-konsep tersebut merupakan bagian dari materi dasar pemrograman C++ dan digunakan untuk membantu programmer dalam mengolah data serta menyelesaikan suatu permasalahan.https://ejournal.undiksha.ac.id/index.php/JPTK/article/view/31?utm_source=chatgpt.com
 
 ## Unguided 
 
