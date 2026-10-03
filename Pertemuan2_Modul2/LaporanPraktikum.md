@@ -4,17 +4,23 @@
 ## Dasar Teori
 Struktur data dalam C++ digunakan untuk mengatur dan mengolah data secara terstruktur. Praktikum ini menggunakan array, matriks, pointer, reference, function, dan switch-case untuk menyimpan data, mengolah nilai, serta membuat program dengan pilihan menu. Konsep tersebut membantu membuat program lebih terstruktur dan mudah digunakan.Logožar, R., Mikac, M., & Radošević, D. (2024). Exploring the Access to the Static Array Elements via Indices and via Pointers — the Introductory C++ Case Expanded. Journal of Information and Organizational Sciences, 48(1), 49–80.https://doi.org/10.31341/jios.48.1.3
 
-### A. ...<br/>
-...
-#### 1. ...
-#### 2. ...
-#### 3. ...
+### A. Guided<br/>
+Berisi kegiatan guided dan penjelasan singkat mengenai program yang dibuat.
+#### 1. Guided 1 – Matriks 3×3
+Membuat program untuk memasukkan dan menampilkan matriks 3×3 menggunakan array dua dimensi.
+#### 2. Guided 2 – Pointer dan Reference
+Membuat program untuk memahami penggunaan pointer dan reference dalam mengubah nilai variabel.
+#### 3. Guided 3 – Function dan Array
+Membuat program menggunakan function untuk mencari nilai maksimum dari array.
 
-### B. ...<br/>
-...
-#### 1. ...
-#### 2. ...
-#### 3. ...
+### B.Latihan <br/>
+Berisi hasil pengerjaan latihan Modul 2.
+#### 1. Operasi Matriks 3×3
+Program penjumlahan, pengurangan, dan perkalian matriks.
+#### 2. Pointer dan Reference
+Program menukar nilai dari 3 variabel menggunakan pointer dan reference.
+#### 3. Array dan Function
+Program mencari nilai minimum, maksimum, dan rata-rata menggunakan function serta menu switch-case.
 
 ## Guided 
 
