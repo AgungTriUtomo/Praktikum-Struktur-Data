@@ -179,7 +179,7 @@ int main() {
 ![Output Unguided 1-1](./Output/Output-Unguided1-1.png)
 
 ##### Output 2
-![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Output Unguided 1-2](./Output/Output-Unguided1-2.png)
 
 Program ini digunakan untuk melakukan operasi penjumlahan, pengurangan, dan perkalian pada dua matriks berukuran 3×3 menggunakan array dua dimensi.
 
