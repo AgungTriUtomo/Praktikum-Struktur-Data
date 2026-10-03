@@ -20,26 +20,86 @@ Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk str
 
 ## Guided 
 
-### 1. ...
+### 1. Matriks 3×3
 
 ```C++
-source code guided 1
-```
-penjelasan singkat guided 1
+#include <iostream>
+using namespace std;
 
-### 2. ...
+int main() {
+    int A[3][3];
+
+    cout << "Masukkan matriks 3x3:\n";
+    for (int i = 0; i < 3; i++)
+        for (int j = 0; j < 3; j++)
+            cin >> A[i][j];
+
+    cout << "Matriks:\n";
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++)
+            cout << A[i][j] << " ";
+        cout << endl;
+    }
+
+    return 0;
+}
+```
+Program ini menggunakan array 2 dimensi untuk menyimpan 9 nilai dalam bentuk matriks 3×3. Perulangan for digunakan untuk memasukkan dan menampilkan setiap elemen matriks
+
+### 2. Pointer dan Reference
 
 ```C++
-source code guided 2
-```
-penjelasan singkat guided 2
+#include <iostream>
+using namespace std;
 
-### 3. ...
+void pointer(int *a) {
+    *a = 20;
+}
+
+void reference(int &b) {
+    b = 30;
+}
+
+int main() {
+    int a = 10, b = 10;
+
+    pointer(&a);
+    reference(b);
+
+    cout << "Pointer = " << a << endl;
+    cout << "Reference = " << b << endl;
+
+    return 0;
+}
+```
+Program ini menunjukkan penggunaan pointer dan reference untuk mengubah nilai variabel. Pointer menggunakan alamat variabel dengan & dan mengakses nilainya dengan *, sedangkan reference menjadi nama lain dari variabel.
+
+### 3. Function dan Array
 
 ```C++
-source code guided 3
+#include <iostream>
+using namespace std;
+
+int cariMaksimum(int arr[], int n) {
+    int max = arr[0];
+
+    for (int i = 1; i < n; i++)
+        if (arr[i] > max)
+            max = arr[i];
+
+    return max;
+}
+
+int main() {
+    int arr[5] = {10, 25, 7, 40, 15};
+
+    cout << "Nilai maksimum = "
+         << cariMaksimum(arr, 5);
+
+    return 0;
+}
 ```
-penjelasan singkat guided 3
+Program ini menggunakan function cariMaksimum() untuk mencari nilai terbesar dari sebuah array. Perulangan digunakan untuk membandingkan setiap nilai dalam array.
 
 ## Unguided 
 
