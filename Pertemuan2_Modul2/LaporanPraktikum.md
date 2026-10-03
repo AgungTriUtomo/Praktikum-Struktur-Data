@@ -43,10 +43,71 @@ penjelasan singkat guided 3
 
 ## Unguided 
 
-### 1. (isi dengan soal unguided 1)
+### 1. Buatlah program yang dapat melakukan operasi penjumlahan, pengurangan, dan perkalian matriks 3x3 
 
 ```C++
-source code unguided 1
+#include <iostream>
+using namespace std;
+
+int main() {
+    int A[3][3], B[3][3];
+    int tambah[3][3], kurang[3][3], kali[3][3];
+
+    cout << "Masukkan Matriks A (3x3):\n";
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            cin >> A[i][j];
+        }
+    }
+
+    cout << "\nMasukkan Matriks B (3x3):\n";
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            cin >> B[i][j];
+        }
+    }
+
+    // Penjumlahan dan pengurangan
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            tambah[i][j] = A[i][j] + B[i][j];
+            kurang[i][j] = A[i][j] - B[i][j];
+        }
+    }
+
+    // Perkalian
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++) {
+            kali[i][j] = 0;
+            for (int k = 0; k < 3; k++) {
+                kali[i][j] += A[i][k] * B[k][j];
+            }
+        }
+    }
+
+    cout << "\nHasil Penjumlahan:\n";
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++)
+            cout << tambah[i][j] << " ";
+        cout << endl;
+    }
+
+    cout << "\nHasil Pengurangan:\n";
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++)
+            cout << kurang[i][j] << " ";
+        cout << endl;
+    }
+
+    cout << "\nHasil Perkalian:\n";
+    for (int i = 0; i < 3; i++) {
+        for (int j = 0; j < 3; j++)
+            cout << kali[i][j] << " ";
+        cout << endl;
+    }
+
+    return 0;
+}
 ```
 ### Output Unguided 1 :
 
@@ -61,10 +122,44 @@ contoh :
 
 penjelasan unguided 1 
 
-### 2. (isi dengan soal unguided 2)
+### 2. Berdasarkan guided pointer dan reference sebelumnya, buatlah keduanya dapat menukar nilai dari 3 variabel 
 
-```C++
-source code unguided 2
+```C++ Pointer 
+#include <iostream>
+using namespace std;
+
+void tukarPointer(int *a, int *b, int *c) {
+    int temp = *a;
+    *a = *b;
+    *b = *c;
+    *c = temp;
+}
+
+int main() {
+    int a, b, c;
+
+    cout << "Masukkan nilai a: ";
+    cin >> a;
+
+    cout << "Masukkan nilai b: ";
+    cin >> b;
+
+    cout << "Masukkan nilai c: ";
+    cin >> c;
+
+    cout << "\nSebelum ditukar: ";
+    cout << a << " " << b << " " << c << endl;
+
+    tukarPointer(&a, &b, &c);
+
+    cout << "Setelah ditukar: ";
+    cout << a << " " << b << " " << c << endl;
+
+    return 0;
+}
+
+```C++ Reference
+
 ```
 ### Output Unguided 2 :
 
@@ -79,7 +174,7 @@ contoh :
 
 penjelasan unguided 2
 
-### 3. (isi dengan soal unguided 3)
+### 3. Diketahui sebuah array 1 dimensi sebagai berikut :  arrA = {11, 8, 5, 7, 12, 26, 3, 54, 33, 55} Buatlah program yang dapat mencari nilai minimum, maksimum, dan rata – rata dari array tersebut! Gunakan function cariMinimum() untuk mencari nilai minimum dan function cariMaksimum() untuk mencari nilai maksimum, serta gunakan prosedur hitungRataRata() untuk menghitung nilai rata – rata! Buat program menggunakan menu switch-case seperti berikut ini : --- Menu Program Array --- 1. Tampilkan isi array 2. cari nilai maksimum 3. cari nilai minimum 4. Hitung nilai rata - rata 
 
 ```C++
 source code unguided 3
