@@ -331,15 +331,16 @@ int main() {
 ##### Output 1
 ![Output Unguided 3-1](./Output/Output-Unguided3-1.png)
 
-##### Output 2
-![Screenshot Output Unguided 3_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
 Program ini menggunakan array yang berisi 10 nilai untuk mencari nilai maksimum, minimum, dan rata-rata. Program dilengkapi menu switch-case serta function cariMinimum(), cariMaksimum(), dan hitungRataRata().
 
 ## Kesimpulan
-...
+Praktikum ini memberikan pemahaman mengenai penggunaan array, matriks, pointer, reference, function, dan switch-case dalam C++. Konsep tersebut dapat diterapkan untuk melakukan operasi matriks, menukar nilai tiga variabel, serta mencari nilai minimum, maksimum, dan rata-rata pada array. Praktikum ini juga membantu meningkatkan pemahaman mengenai dasar struktur data dan pemrograman C++.
 
 ## Referensi
 [1] Triase. (2020). Diktat Edisi Revisi : STRUKTUR DATA. Medan: UNIVERSTAS ISLAM NEGERI SUMATERA UTARA MEDAN. 
 <br>[2] Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4.
-<br>...
+<br>[3] Logožar, R., Mikac, M., & Radošević, D. (2024).
+Exploring the Access to the Static Array Elements via Indices and via Pointers — the Introductory C++ Case Expanded. Journal of Information and Organizational Sciences, 48(1), 49–80.
+DOI: 10.31341/jios.48.1.3.https://oaji.net/articles/2023/7988-1720695924.pdf?utm_source=chatgpt.com
+<br> [4] Huang, G. (2011).
+The Rank and Relation on C++ Array and Pointer. 2011 International Conference on Information Technology and Artificial Intelligence (ITAIC).https://doi.org/10.1109/ITAIC.2011.6030273?utm_source=chatgpt.com
