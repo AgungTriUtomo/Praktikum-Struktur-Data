@@ -1,10 +1,8 @@
 # <h1 align="center">Laporan Praktikum Modul 2 - Codeblocks IDE & Pengenalan Bahas C++ (Bagian Pertama)</h1>
-<p align="center">Muhammad Dhimas Hafizh Fathurrahman - 2311102151</p>
+<p align="center"> Agung Tri Utomo / 109082500048</p>
 
 ## Dasar Teori
-isi dengan penjelasan dasar teori disertai referensi jurnal (gunakan kurung siku [] untuk pernyataan yang mengambil refernsi dari jurnal).
-contoh :
-Linked list atau yang disebut juga senarai berantai adalah Salah satu bentuk struktur data yang berisi kumpulan data yang tersusun secara sekuensial, saling bersambungan, dinamis, dan terbatas[1]. Linked list terdiri dari sejumlah node atau simpul yang dihubungkan secara linier dengan bantuan pointer.
+Struktur data dalam C++ digunakan untuk mengatur dan mengolah data secara terstruktur. Praktikum ini menggunakan array, matriks, pointer, reference, function, dan switch-case untuk menyimpan data, mengolah nilai, serta membuat program dengan pilihan menu. Konsep tersebut membantu membuat program lebih terstruktur dan mudah digunakan.Logožar, R., Mikac, M., & Radošević, D. (2024). Exploring the Access to the Static Array Elements via Indices and via Pointers — the Introductory C++ Case Expanded. Journal of Information and Organizational Sciences, 48(1), 49–80.https://doi.org/10.31341/jios.48.1.3
 
 ### A. ...<br/>
 ...
