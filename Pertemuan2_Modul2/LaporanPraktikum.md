@@ -366,9 +366,114 @@ Program ini menggunakan array yang berisi 10 nilai untuk mencari nilai maksimum,
 
 ### Tamabahan Praktikum
 
-## 1. code
-![CodingArray 1](./TambahanPraktikum/CodingArray1.png)
+## 1. Code Array1
 
+![CodingArray1](./TambahanPraktikum/CodingArray1.png)
+
+### Output Array1
+
+![OutputArray1](./TambahanPraktikum/OutputArray1.png)
+
+### Penjelasan
+
+Program Array1 menggunakan array untuk menyimpan dan mengolah data sesuai dengan perintah yang diberikan.
+
+---
+
+## 2. Code Array2
+
+![CodingArray2](./TambahanPraktikum/CodingArray2.png)
+
+### Output Array2
+
+![OutputArray2](./TambahanPraktikum/OutputArray2.png)
+
+### Penjelasan
+
+Program Array2 menggunakan array untuk menyimpan beberapa data dan menampilkan hasil pengolahan data tersebut.
+
+---
+
+## 3. Code Array3
+
+![CodingArray3](./TambahanPraktikum/CodingArray3.png)
+
+### Output Array3
+
+![OutputArray3](./TambahanPraktikum/OutputArray3.png)
+
+### Penjelasan
+
+Program Array3 menerapkan penggunaan array untuk mengolah data berdasarkan proses yang terdapat pada program.
+
+---
+
+## 4. Code Array4
+
+![CodingArray4](./TambahanPraktikum/CodingArray4.png)
+
+### Output Array4
+
+![OutputArray4](./TambahanPraktikum/OutputArray4.png)
+
+### Penjelasan
+
+Program Array4 menggunakan array untuk menyimpan dan menampilkan data sesuai dengan proses yang telah dibuat.
+
+
+## 1. Code Pointer1
+
+![CodingPointer1](./TambahanPraktikum/CodingPointer1.png)
+
+### Output Pointer1
+
+![OutputPointer1](./TambahanPraktikum/OutputPointer1.png)
+
+### Penjelasan
+
+Program Pointer1 digunakan untuk memahami konsep dasar pointer pada C++. Pointer digunakan untuk menyimpan alamat dari suatu variabel.
+
+---
+
+## 2. Code Pointer2
+
+![CodingPointer2](./TambahanPraktikum/CodingPointer2.png)
+
+### Output Pointer2
+
+![OutputPointer2](./TambahanPraktikum/OutputPointer2.png)
+
+### Penjelasan
+
+Program Pointer2 menunjukkan penggunaan pointer dalam mengakses nilai dan alamat suatu variabel.
+
+---
+
+## 3. Code Pointer3
+
+![CodingPointer3](./TambahanPraktikum/CodingPointer3.png)
+
+### Output Pointer3
+
+![OutputPointer3](./TambahanPraktikum/OutputPointer3.png)
+
+### Penjelasan
+
+Program Pointer3 menerapkan pointer untuk mengakses dan mengolah data yang terdapat pada array.
+
+---
+
+## 4. Code Pointer4
+
+![CodingPointer4](./TambahanPraktikum/CodingPointer4.png)
+
+### Output Pointer4
+
+![OutputPointer4](./TambahanPraktikum/OutputPointer4.png)
+
+### Penjelasan
+
+Program Pointer4 menunjukkan penggunaan array karakter atau string dalam C++ serta cara mengakses elemen tertentu berdasarkan indeks.
 
 ## Kesimpulan
 Praktikum ini memberikan pemahaman mengenai penggunaan array, matriks, pointer, reference, function, dan switch-case dalam C++. Konsep tersebut dapat diterapkan untuk melakukan operasi matriks, menukar nilai tiga variabel, serta mencari nilai minimum, maksimum, dan rata-rata pada array. Praktikum ini juga membantu meningkatkan pemahaman mengenai dasar struktur data dan pemrograman C++.
