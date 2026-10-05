@@ -52,7 +52,7 @@ Program ini menggunakan array 2 dimensi untuk menyimpan 9 nilai dalam bentuk mat
 
 ### 2. Pointer dan Reference
 
-```C++
+```C++ Pointer
 #include <iostream>
 using namespace std;
 
@@ -220,14 +220,45 @@ int main() {
 }
 
 ```C++ Reference
+#include <iostream>
+using namespace std;
 
+void tukarReference(int &a, int &b, int &c) {
+    int temp = a;
+    a = b;
+    b = c;
+    c = temp;
+}
+
+int main() {
+    int a, b, c;
+
+    cout << "Masukkan nilai a: ";
+    cin >> a;
+
+    cout << "Masukkan nilai b: ";
+    cin >> b;
+
+    cout << "Masukkan nilai c: ";
+    cin >> c;
+
+    cout << "\nSebelum ditukar: ";
+    cout << a << " " << b << " " << c << endl;
+
+    tukarReference(a, b, c);
+
+    cout << "Setelah ditukar: ";
+    cout << a << " " << b << " " << c << endl;
+
+    return 0;
+}
 ```
 ### Output Unguided 2 :
 
-##### Output 1
+##### Output 1 Pointer
 ![Output Unguided 2-1](./Output/Output-Unguided2-1.png)
 
-##### Output 2
+##### Output 2 reference
 ![Output Unguided 2-2](./Output/Output-Unguided2-2.png)
 
 Program ini menggunakan pointer dan reference untuk menukar nilai dari tiga variabel. Pointer menggunakan alamat memori, sedangkan reference digunakan sebagai alias dari variabel.
