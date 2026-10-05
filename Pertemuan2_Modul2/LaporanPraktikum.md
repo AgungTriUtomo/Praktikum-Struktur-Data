@@ -256,10 +256,10 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1 Pointer
-![Output Unguided 2-1](./Output/Output-Unguided2-1.png)
+![Output UnguidedPointer 2-1](./Output/Output-UnguidedPointer2-1.png)
 
 ##### Output 2 reference
-![Output Unguided 2-2](./Output/Output-Unguided2-2.png)
+![Output UnguidedReference2-2](./Output/Output-UnguidedReference2-2.png)
 
 Program ini menggunakan pointer dan reference untuk menukar nilai dari tiga variabel. Pointer menggunakan alamat memori, sedangkan reference digunakan sebagai alias dari variabel.
 
