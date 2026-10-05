@@ -375,7 +375,7 @@ Program ini menggunakan array yang berisi 10 nilai untuk mencari nilai maksimum,
 ![OutputArray1](./TambahanPraktikum/OutputArray1.png)
 
 ### Penjelasan
-Output menampilkan lima nilai yang telah dimasukkan ke dalam array satu dimensi. Setelah itu, program menampilkan isi array nilai_tahun yang terdiri dari 5 baris dan 5 kolom. Nilai pada array dua dimensi ditampilkan berurutan dari baris pertama sampai baris terakhir.
+Program ini menggunakan array satu dimensi untuk menyimpan beberapa nilai yang dimasukkan oleh pengguna. Nilai tersebut kemudian ditampilkan kembali sesuai dengan urutan input. Program juga menggunakan array dua dimensi untuk menyimpan dan menampilkan data dalam bentuk baris dan kolom.
 
 ---
 
@@ -388,7 +388,7 @@ Output menampilkan lima nilai yang telah dimasukkan ke dalam array satu dimensi.
 ![OutputArray2](./TambahanPraktikum/OutputArray2.png)
 
 ### Penjelasan
-
+Program ini menggunakan array karakter untuk menyimpan sebuah teks. Seluruh isi array ditampilkan menggunakan cout, kemudian salah satu karakter diakses berdasarkan indeks array. Hal ini menunjukkan bahwa setiap karakter dalam array memiliki posisi indeks yang dimulai dari 0.
 
 
 ---
@@ -402,7 +402,7 @@ Output menampilkan lima nilai yang telah dimasukkan ke dalam array satu dimensi.
 ![OutputArray3](./TambahanPraktikum/OutputArray3.png)
 
 ### Penjelasan
-
+Program ini menunjukkan penggunaan array untuk menyimpan beberapa data dengan tipe data yang sama. Data dalam array dapat diakses menggunakan indeks, sehingga setiap elemen dapat ditampilkan atau digunakan sesuai dengan posisinya.
 
 
 ---
@@ -416,7 +416,7 @@ Output menampilkan lima nilai yang telah dimasukkan ke dalam array satu dimensi.
 ![OutputArray4](./TambahanPraktikum/OutputArray4.png)
 
 ### Penjelasan
-
+Program ini menerapkan array untuk mengolah beberapa data secara berurutan. Penggunaan perulangan membantu mengakses setiap elemen array sehingga proses pengolahan data menjadi lebih mudah dan tidak perlu ditulis satu per satu.
 
 
 
@@ -429,7 +429,7 @@ Output menampilkan lima nilai yang telah dimasukkan ke dalam array satu dimensi.
 ![OutputPointer1](./TambahanPraktikum/OutputPointer1.png)
 
 ### Penjelasan
-
+Program ini menunjukkan penggunaan pointer untuk menyimpan alamat dari sebuah variabel. Operator & digunakan untuk mendapatkan alamat variabel, sedangkan * digunakan untuk mengakses nilai yang berada pada alamat tersebut.
 
 
 ---
@@ -443,7 +443,7 @@ Output menampilkan lima nilai yang telah dimasukkan ke dalam array satu dimensi.
 ![OutputPointer2](./TambahanPraktikum/OutputPointer2.png)
 
 ### Penjelasan
-
+Program ini menggunakan pointer untuk mengakses dan mengubah nilai suatu variabel melalui alamat memorinya. Perubahan yang dilakukan melalui pointer akan memengaruhi nilai variabel aslinya.
 
 ---
 
@@ -456,7 +456,7 @@ Output menampilkan lima nilai yang telah dimasukkan ke dalam array satu dimensi.
 ![OutputPointer3](./TambahanPraktikum/OutputPointer3.png)
 
 ### Penjelasan
-
+Program ini menerapkan pointer pada proses pertukaran atau perubahan nilai. Dengan menggunakan alamat variabel, fungsi dapat mengubah nilai variabel secara langsung sehingga hasil perubahan tetap terlihat setelah fungsi selesai dijalankan.
 
 ---
 
@@ -469,7 +469,7 @@ Output menampilkan lima nilai yang telah dimasukkan ke dalam array satu dimensi.
 ![OutputPointer4](./TambahanPraktikum/OutputPointer4.png)
 
 ### Penjelasan
-
+Program ini menunjukkan penggunaan pointer dalam pengolahan beberapa variabel. Pointer digunakan untuk mengirim alamat variabel ke fungsi sehingga nilai variabel dapat diakses dan diubah secara langsung.
 
 
 ## Kesimpulan
