@@ -364,6 +364,12 @@ int main() {
 
 Program ini menggunakan array yang berisi 10 nilai untuk mencari nilai maksimum, minimum, dan rata-rata. Program dilengkapi menu switch-case serta function cariMinimum(), cariMaksimum(), dan hitungRataRata().
 
+### Tamabahan Praktikum
+
+## 1. code
+![CodingArray 1](./TambahanPraktikum/CodingArray1.png)
+
+
 ## Kesimpulan
 Praktikum ini memberikan pemahaman mengenai penggunaan array, matriks, pointer, reference, function, dan switch-case dalam C++. Konsep tersebut dapat diterapkan untuk melakukan operasi matriks, menukar nilai tiga variabel, serta mencari nilai minimum, maksimum, dan rata-rata pada array. Praktikum ini juga membantu meningkatkan pemahaman mengenai dasar struktur data dan pemrograman C++.
 
