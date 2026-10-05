@@ -376,7 +376,6 @@ Program ini menggunakan array yang berisi 10 nilai untuk mencari nilai maksimum,
 
 ### Penjelasan
 
-Program Array1 menggunakan array untuk menyimpan dan mengolah data sesuai dengan perintah yang diberikan.
 
 ---
 
@@ -390,7 +389,7 @@ Program Array1 menggunakan array untuk menyimpan dan mengolah data sesuai dengan
 
 ### Penjelasan
 
-Program Array2 menggunakan array untuk menyimpan beberapa data dan menampilkan hasil pengolahan data tersebut.
+
 
 ---
 
@@ -404,7 +403,7 @@ Program Array2 menggunakan array untuk menyimpan beberapa data dan menampilkan h
 
 ### Penjelasan
 
-Program Array3 menerapkan penggunaan array untuk mengolah data berdasarkan proses yang terdapat pada program.
+
 
 ---
 
@@ -418,7 +417,7 @@ Program Array3 menerapkan penggunaan array untuk mengolah data berdasarkan prose
 
 ### Penjelasan
 
-Program Array4 menggunakan array untuk menyimpan dan menampilkan data sesuai dengan proses yang telah dibuat.
+
 
 
 ## 1. Code Pointer1
@@ -431,7 +430,7 @@ Program Array4 menggunakan array untuk menyimpan dan menampilkan data sesuai den
 
 ### Penjelasan
 
-Program Pointer1 digunakan untuk memahami konsep dasar pointer pada C++. Pointer digunakan untuk menyimpan alamat dari suatu variabel.
+
 
 ---
 
@@ -445,7 +444,6 @@ Program Pointer1 digunakan untuk memahami konsep dasar pointer pada C++. Pointer
 
 ### Penjelasan
 
-Program Pointer2 menunjukkan penggunaan pointer dalam mengakses nilai dan alamat suatu variabel.
 
 ---
 
@@ -459,7 +457,6 @@ Program Pointer2 menunjukkan penggunaan pointer dalam mengakses nilai dan alamat
 
 ### Penjelasan
 
-Program Pointer3 menerapkan pointer untuk mengakses dan mengolah data yang terdapat pada array.
 
 ---
 
@@ -473,7 +470,7 @@ Program Pointer3 menerapkan pointer untuk mengakses dan mengolah data yang terda
 
 ### Penjelasan
 
-Program Pointer4 menunjukkan penggunaan array karakter atau string dalam C++ serta cara mengakses elemen tertentu berdasarkan indeks.
+
 
 ## Kesimpulan
 Praktikum ini memberikan pemahaman mengenai penggunaan array, matriks, pointer, reference, function, dan switch-case dalam C++. Konsep tersebut dapat diterapkan untuk melakukan operasi matriks, menukar nilai tiga variabel, serta mencari nilai minimum, maksimum, dan rata-rata pada array. Praktikum ini juga membantu meningkatkan pemahaman mengenai dasar struktur data dan pemrograman C++.
