@@ -375,7 +375,7 @@ Program ini menggunakan array yang berisi 10 nilai untuk mencari nilai maksimum,
 ![OutputArray1](./TambahanPraktikum/OutputArray1.png)
 
 ### Penjelasan
-
+Output menampilkan lima nilai yang telah dimasukkan ke dalam array satu dimensi. Setelah itu, program menampilkan isi array nilai_tahun yang terdiri dari 5 baris dan 5 kolom. Nilai pada array dua dimensi ditampilkan berurutan dari baris pertama sampai baris terakhir.
 
 ---
 
